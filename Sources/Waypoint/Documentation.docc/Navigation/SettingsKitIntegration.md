@@ -4,8 +4,9 @@ Select a settings tab with Waypoint and open a group with SettingsKit.
 
 ## Overview
 
-Add both Waypoint and SettingsKit to the app target. Waypoint's generic destination
-type can carry a `SettingsNavigationRequest`, so no package-level adapter is needed.
+Add both Waypoint and [SettingsKit](https://github.com/Aeastr/SettingsKit) to the app
+target. Waypoint's generic destination type can carry a `SettingsNavigationRequest`,
+so no package-level adapter is needed.
 The app parses links or other actions, Waypoint selects the tab and stores the
 request, and SettingsKit resolves the destination within its settings hierarchy.
 

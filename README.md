@@ -76,8 +76,9 @@ sheets by default. For independent navigation stacks per tab, use `TabRouter`.
 
 ## Working with SettingsKit
 
-Waypoint can coordinate app navigation with SettingsKit's programmatic settings
-navigation. The app carries a `SettingsNavigationRequest` in its destination type,
+Waypoint can coordinate app navigation with [SettingsKit](https://github.com/Aeastr/SettingsKit)'s
+programmatic settings navigation. The app carries a `SettingsNavigationRequest`
+in its destination type,
 selects the Settings tab through `TabRouter`, and passes the request to
 `SettingsView`. SettingsKit resolves the requested groups within its own hierarchy;
 Waypoint owns the app's tab selection and pending route.
