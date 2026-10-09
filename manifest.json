@@ -1,0 +1,213 @@
+{
+  "simulatorUUID": "87DE0FD3-53A4-4669-B9FA-4EB4372EEA9D",
+  "runtime": "com.apple.CoreSimulator.SimRuntime.iOS-27-0",
+  "xcode": "Xcode 27.1\nBuild version 27A9269",
+  "baseCommit": "eeea254839a1c1fc6602c414757e472e67ccedd0",
+  "status": "passed",
+  "device": "iPhone 18 Pro",
+  "runtimeBuild": "24A434",
+  "mode": "scripted recording",
+  "appExecutableSHA256": "9110c14c31621716dd94ce8cd8afc728c8418ee41f4c4716a950a86079d44755",
+  "runtimeSourcesMatchAcrossRuns": true,
+  "clips": [
+    {
+      "flow": "B01",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b01-stack-navigation.mp4",
+      "status": "passed",
+      "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d",
+      "sha256": "e310222851402a628cfda7cead909e13a0d7a4aa2befec46826dee41784c8e2a",
+      "duration": 15.903,
+      "bytes": 2336538,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B02",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b02-switch-then-push.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "c57d1c064e5cd44191820105aa92dbfa1a08dd49fba87bf7e04763f83be76744",
+      "duration": 5.839,
+      "bytes": 208500,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B03",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b03-independent-tab-history.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "4c757b498583c43923eb605ba6f76488301ac1eb88cccf26b8594d14ff9e5e2e",
+      "duration": 16.6,
+      "bytes": 1330321,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B04",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b04-background-tab-routing.mp4",
+      "status": "passed",
+      "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d",
+      "sha256": "e62b4dbe5b64bed2543903de61bb37e9f994cd62874b40190e76dba30096a393",
+      "duration": 23.239,
+      "bytes": 1868604,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B05",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b05-sheet-round-trip.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "ad6f0dcc7b3ac670df9e7c1d3f555067162705ceca882701010f3c41dad89c31",
+      "duration": 6.712,
+      "bytes": 972437,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B06",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b06-sheet-replacement.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "e058d343f5581ea07be7cbdc7a892004429991aef701bc43b68c54577cda31dc",
+      "duration": 13.352,
+      "bytes": 2634665,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B07",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b07-replace-sheet-from-detail.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "c3395a4b82d0897ded3b1b19801fc02c88e42996265409f0fe8b75e36d4c52e1",
+      "duration": 15.615,
+      "bytes": 2725290,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B08",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b08-local-sheet-navigation.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "2f12f51274c1b925af9aec3e7bdbe7bb38338bf7dbd6556f5373c3ff0bc8fda3",
+      "duration": 13.898,
+      "bytes": 2080552,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B09",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b09-dismiss-and-reopen.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "9425d82898031a2ff5bfebfbb0d19de6ffb49838f6cfcfa50a4a3e996388b6bb",
+      "duration": 14.632,
+      "bytes": 2204930,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "B10",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b10-sheet-to-utility-ios.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "4f177ee0a8bc15b50b8f044e9ab5bfced00a3c33af4ad6a8c650c91251d8f446",
+      "duration": 11.534,
+      "bytes": 2123553,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C01",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c01-router-push-in-sheet.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "172b68b44057565f98132541ffdb7f0ccf2395e4244f6408efe6213a58244c77",
+      "duration": 11.855,
+      "bytes": 2072318,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C02",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c02-open-class-through-parent.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "1d86bed64fce24ab77c57e451ecad9563fdb003e61a29133a04ab19f029b5d61",
+      "duration": 6.979,
+      "bytes": 720111,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C03",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c03-open-class-directly.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "a03805ca129e15bfaeb4f45992276808de5ee633a69d44a620b1e3b956c58c64",
+      "duration": 10.709,
+      "bytes": 1129966,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C04",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c04-reuse-existing-context.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "34ce95ecb210cf5c21e72de51ac629a4a813d33b3307b8db79955b5bf5ec7a9b",
+      "duration": 17.514,
+      "bytes": 2049081,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C05",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c05-nested-sheet.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "6d665063fd5eeffacfb063a7382a6a342e5c3fc7e80a8fae7870202377ce705e",
+      "duration": 21.892,
+      "bytes": 2418692,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "C06",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c06-external-root-override.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "3e9346a6da421ab250d27f95d57266c5af85f692f98da46b890228c55906962b",
+      "duration": 11.144,
+      "bytes": 1860853,
+      "width": 804,
+      "height": 1748
+    },
+    {
+      "flow": "W04",
+      "file": "https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/w04-iphone-editor-fallback.mp4",
+      "status": "passed",
+      "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b",
+      "sha256": "13e34f51f1aed90739e6fbdcb9d66850d5a5fdafa778aafcaec9bf881c4c78a0",
+      "duration": 50.39,
+      "bytes": 4309493,
+      "width": 804,
+      "height": 1748
+    }
+  ],
+  "optimization": {
+    "tool": "Clop",
+    "encoderPreset": "lossless",
+    "scaleFactor": 0.6666666666666666,
+    "originalBytes": 163100326,
+    "optimizedBytes": 33045904,
+    "dimensions": [
+      804,
+      1748
+    ]
+  },
+  "galleryURL": "https://aeastr.github.io/Waypoint/"
+}
