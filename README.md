@@ -1,7 +1,7 @@
 <div>
   <!-- Replace Resources/icon/placeholder.svg with the final icon when available. -->
   <h1>Waypoint <img src="Resources/icon/placeholder.svg" alt="Waypoint icon placeholder" width="96" height="96" align="right"></h1>
-  <p>Coordinate navigation stacks, tabs, and presentations in your SwiftUI app while keeping view construction in the app.</p>
+  <p>Waypoint gives your app a shared place to manage navigation. Keep independent tab histories, present sheets and windows, and route destinations into an existing navigation context—or open that context with the destination already on its stack. Define your routes and views; Waypoint manages the routing state behind them.</p>
   <p><img src="https://img.shields.io/badge/iOS-17%2B-000000?logo=apple" alt="iOS 17+"> <img src="https://img.shields.io/badge/macOS-14%2B-000000?logo=apple" alt="macOS 14+"> <img src="https://img.shields.io/badge/Swift-6.2%2B-F05138?logo=swift&amp;logoColor=white" alt="Swift 6.2+"></p>
 </div>
 
