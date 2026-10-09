@@ -8,7 +8,7 @@ Bug reports, documentation improvements, examples, focused fixes, and new capabi
 
 ## Issues
 
-Use the issue template for bugs, feature requests, or documentation issues. Keep relevant sections and remove the rest. Describe the problem, its effect, and the desired outcome. For bugs, include the smallest useful reproduction, actual versus expected behavior, and relevant version/environment details. A brief report is sufficient for a small issue; proposing or implementing a solution is optional.
+Choose **Bug report**, **Feature request**, or **Documentation issue** in the issue chooser. Bug reports ask for the smallest useful reproduction, actual versus expected behavior, and the Waypoint version or source snapshot, iOS or macOS version, Xcode and Swift versions, and relevant consuming-app details. Feature requests ask for the use case and desired outcome; documentation issues identify missing, unclear, or incorrect guidance. Keep reports proportionate and remove irrelevant optional sections. Proposing or implementing a solution is optional.
 
 ## Branches, labels, tags, and releases
 
