@@ -7,23 +7,22 @@
 
 ## Routing examples
 
-- **Open a sheet already at a detail.** Request Class 3 through Classes: the sheet
-  opens at Class 3, and Back reveals the Classes list. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c02-open-class-through-parent.mp4).
-- **Route into an open sheet.** Request another class and push it into the existing
-  Classes stack, preserving its sheet identity. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c04-reuse-existing-context.mp4).
-- **Present a sheet from a sheet.** Open a child Inspector from Class 3, then close
-  it to return to the same class and navigation stack. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c05-nested-sheet.mp4).
-- **Switch tabs and open a destination.** Select Library, then push a detail while
-  Home keeps its own navigation history. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b02-switch-then-push.mp4).
-- **Replace a sheet while inside its navigation stack.** Move from a class detail
-  to Inspector, then return to the Classes list. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b07-replace-sheet-from-detail.mp4).
+- **[Open a sheet already at a detail](https://aeastr.github.io/Waypoint/#C02).** Request Class 3 through Classes: the sheet
+  opens at Class 3, and Back reveals the Classes list.
+- **[Route into an open sheet](https://aeastr.github.io/Waypoint/#C04).** Request another class and push it into the existing
+  Classes stack, preserving its sheet identity.
+- **[Present a sheet from a sheet](https://aeastr.github.io/Waypoint/#C05).** Open a child Inspector from Class 3, then close
+  it to return to the same class and navigation stack.
+- **[Switch tabs and open a destination](https://aeastr.github.io/Waypoint/#B02).** Select Library, then push a detail while
+  Home keeps its own navigation history.
+- **[Replace a sheet while inside its navigation stack](https://aeastr.github.io/Waypoint/#B07).** Move from a class detail
+  to Inspector, then return to the Classes list.
 - **Open app windows and prominent editor scenes.** Route to a registered window
   or request a separate UIKit scene with prominent placement and a dedicated drag
   handle. [See window setup](Sources/Waypoint/Documentation.docc/Presentations/WindowRouting.md).
 
-Browse [all 17 iPhone recordings](https://github.com/Aeastr/Waypoint/releases/tag/demo-recordings-2026-10-09),
-or open the [HTML playback gallery](Resources/Recordings/index.html) locally for
-a flow index and explanations beneath each video.
+Explore [all 17 iPhone flows in the playback gallery](https://aeastr.github.io/Waypoint/),
+with a flow index and explanations beneath each video.
 
 ## Installation
 
@@ -143,8 +142,8 @@ window requests, with live router state. See the [demo guide](Demo/README.md) fo
 manual checks and build instructions.
 
 Browse the [iPhone recordings folder](Resources/Recordings) or open the
-[playback gallery](Resources/Recordings/index.html) to watch the 17 scripted
-routing flows. Open the gallery locally; its videos are served as GitHub Release assets.
+[playback gallery](https://aeastr.github.io/Waypoint/) to watch the 17 scripted
+routing flows. The gallery is hosted on GitHub Pages, with videos served as release assets.
 
 ## Documentation
 

@@ -31,7 +31,7 @@ for clip in manifest['clips']:
         f'<div class="player"><video controls preload="metadata" playsinline aria-label="{escape(title)}" '
         f'src="{escape(name, quote=True)}"></video></div>'
         f'<div class="caption"><p>{escape(description)}</p>'
-        f'<div class="video-links"><a href="{escape(name, quote=True)}">Open video</a>'
+        f'<div class="video-links"><a href="{escape(name, quote=True)}">Download video</a>'
         f'<span>{duration}</span><a href="#flow-index">Back to index ↑</a></div></div></article>'
     )
     if flow[:1] in index:
@@ -75,7 +75,7 @@ footer{border-top:1px solid var(--border);margin-top:32px;padding-top:16px;color
 )
 (root / 'README.md').write_text(
     '# Scripted iPhone recordings\n\n' + intro
-    + '\n\nOpen [the playback gallery](index.html) in a browser, or select a clip:\n\n'
+    + '\n\nOpen [the playback gallery](' + manifest.get('galleryURL', 'index.html') + '), or select a clip:\n\n'
     + '\n'.join(links) + '\n\n[Run manifest](manifest.json) · [Step timestamps](steps.jsonl)\n'
 )
 print('Published', len(cards), 'gallery entries with descriptions and flow index')

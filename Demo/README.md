@@ -82,9 +82,8 @@ xcodebuild -project Demo/WaypointDemo.xcodeproj -scheme WaypointDemo \
 Run these from the package root with a compatible Xcode selected. The project
 includes a shared scheme and requires no project generator.
 
-Watch the [17 scripted iPhone flows](https://github.com/Aeastr/Waypoint/releases/tag/demo-recordings-2026-10-09)
-or open the [HTML gallery](../Resources/Recordings/index.html) locally. Optimized
-videos are hosted as GitHub Release assets.
+Watch the [17 scripted iPhone flows](https://aeastr.github.io/Waypoint/) in the
+GitHub Pages gallery. Optimized videos are hosted as GitHub Release assets.
 Local captures and validation artifacts are kept in `Resources/Recordings`.
 
 ## Scripted recordings
@@ -122,3 +121,13 @@ python3 Demo/Scripts/publish-recordings.py Resources/Recordings/RUN_DIRECTORY
 frames and media metadata for review. Compile it with the selected Xcode's
 `swiftc -parse-as-library`, then pass the run's MP4 paths. Review the complete
 flow timeline and important transitions before promoting clips to the main gallery.
+
+
+Publish the current gallery files to the `gh-pages` branch:
+
+```sh
+python3 Demo/Scripts/deploy-gallery.py
+```
+
+This uses the signed-in GitHub CLI account. The deployment contains the HTML
+page and its metadata; video playback uses the release asset URLs in the manifest.

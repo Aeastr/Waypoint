@@ -242,3 +242,12 @@ tracks the gallery, its lightweight metadata, scripts, and source. Original
 captures and detailed validation artifacts remain locally in the ignored
 `Resources/Recordings` subdirectories. The unpublished commit was amended before
 pushing so those local artifacts are excluded from the branch history.
+
+
+## Hosted recording gallery — 2026-10-09
+
+The gallery is published at https://aeastr.github.io/Waypoint/ from the
+`gh-pages` branch. Example titles in the main README link to the corresponding
+gallery section. GitHub Pages reports a successful build. The hosted page,
+index navigation, and inline C02 playback were checked in the browser.
+`deploy-gallery.py` updates the page and metadata through the GitHub CLI.

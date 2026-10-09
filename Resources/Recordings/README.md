@@ -2,7 +2,7 @@
 
 17 scripted routing flows · iPhone 18 Pro · iOS 27.0
 
-Open [the playback gallery](index.html) in a browser, or select a clip:
+Open [the playback gallery](https://aeastr.github.io/Waypoint/), or select a clip:
 
 - [B01 — Push, push, and return](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b01-stack-navigation.mp4) · 15.9s
   Push two Home details, go Back to Detail 1, then return to the root. The visible path follows each navigation step.
