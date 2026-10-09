@@ -9,3 +9,11 @@
 DerivedData/
 xcuserdata/
 *.xcuserstate
+
+# Local recordings and validation artifacts
+Resources/Recordings/*
+!Resources/Recordings/README.md
+!Resources/Recordings/index.html
+!Resources/Recordings/manifest.json
+!Resources/Recordings/media-validation.json
+!Resources/Recordings/steps.jsonl

@@ -36,8 +36,8 @@ to the requested page; inline sections are traversed automatically.
 
 ```swift
 let request = SettingsNavigationRequest(groupTitles: ["General", "About"])
-router.replacePath(with: [.settings(request)], in: .settings)
 router.selectedTab = .settings
+router.replacePath(with: [.settings(request)], in: .settings)
 ```
 
 The titles above are examples: they must match the app's actual settings groups.

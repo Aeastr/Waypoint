@@ -1,0 +1,250 @@
+{"time": 1791580171.9053102, "flow": "B02", "kind": "checked", "uptime": 289220.51050833333, "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580171.905745, "flow": "B02", "kind": "ready", "uptime": 289220.5109427917, "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580172.340716, "flow": "B02", "kind": "flow-start", "uptime": 289220.945911875, "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580172.803324, "flow": "B02", "kind": "tap", "uptime": 289221.40852087503, "detail": "Switch to Library, then push", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289224.53741283336, "flow": "B02", "time": 1791580175.932218, "kind": "checked", "detail": "Library detail 1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289224.66412675, "flow": "B02", "time": 1791580176.0589318, "kind": "checked", "detail": "state.tab = Library", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289224.7806531667, "flow": "B02", "time": 1791580176.175459, "kind": "checked", "detail": "state.home = Root", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289225.9859096667, "flow": "B02", "time": 1791580177.380719, "kind": "passed", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289232.5060312083, "flow": "B03", "time": 1791580183.9008431, "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289232.5065781667, "flow": "B03", "time": 1791580183.90139, "kind": "ready", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289232.8821169167, "flow": "B03", "time": 1791580184.2769299, "kind": "flow-start", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289233.18339279166, "flow": "B03", "time": 1791580184.578205, "kind": "tap", "detail": "Push detail", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289235.9016622084, "flow": "B03", "time": 1791580187.2964768, "kind": "checked", "detail": "Home detail 1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289235.97328870837, "flow": "B03", "time": 1791580187.368103, "kind": "tap", "detail": "Library", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289239.180263625, "flow": "B03", "time": 1791580190.5750809, "kind": "tap", "detail": "Push detail", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289240.86102308333, "flow": "B03", "time": 1791580192.255841, "kind": "tap", "detail": "Push another detail", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289243.39710375003, "flow": "B03", "time": 1791580194.791924, "kind": "checked", "detail": "Library detail 2", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289243.462141375, "flow": "B03", "time": 1791580194.856962, "kind": "tap", "detail": "Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289247.41989775, "flow": "B03", "time": 1791580198.814722, "kind": "checked", "detail": "Home detail 1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289247.6216300417, "flow": "B03", "time": 1791580199.016454, "kind": "checked", "detail": "state.library = Detail 1 \u2192 Detail 2", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289247.690866875, "flow": "B03", "time": 1791580199.085691, "kind": "tap", "detail": "Library", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289251.6428595417, "flow": "B03", "time": 1791580203.0376868, "kind": "checked", "detail": "Library detail 2", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289252.84484825004, "flow": "B03", "time": 1791580204.2396789, "kind": "passed", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "Waypoint \u00b7 Home", "uptime": 289311.25581033336, "kind": "checked", "time": 1791580262.650687, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "", "uptime": 289311.26055062504, "kind": "ready", "time": 1791580262.655426, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "", "uptime": 289312.07150195836, "kind": "flow-start", "time": 1791580263.4663792, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "Push detail", "uptime": 289312.75420870836, "kind": "tap", "time": 1791580264.149086, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Open Classes sheet", "flow": "B05", "uptime": 289315.04919337505, "time": 1791580266.444072, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "classes-sheet-state = Depth 0", "uptime": 289317.063514375, "kind": "checked", "time": 1791580268.458394, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B05", "detail": "context.close", "uptime": 289317.25402237504, "kind": "tap", "time": 1791580268.648903, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Home detail 1", "flow": "B05", "uptime": 289320.11079433333, "time": 1791580271.505677, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "state.home = Detail 1", "flow": "B05", "uptime": 289320.27640620834, "time": 1791580271.671289, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "", "flow": "B05", "uptime": 289321.4816485834, "time": 1791580272.876536, "kind": "passed", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Waypoint \u00b7 Home", "flow": "B06", "uptime": 289330.00131795835, "time": 1791580281.396209, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "", "flow": "B06", "uptime": 289330.00417525, "time": 1791580281.399066, "kind": "ready", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "", "flow": "B06", "uptime": 289330.3811904167, "time": 1791580281.776082, "kind": "flow-start", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.open", "flow": "B06", "uptime": 289330.67545175, "time": 1791580282.070343, "kind": "scroll", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.open", "flow": "B06", "uptime": 289333.0341510417, "time": 1791580284.429045, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Classes", "kind": "checked", "flow": "B06", "uptime": 289335.5514470417, "time": 1791580286.946342, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.inspector", "kind": "tap", "flow": "B06", "uptime": 289335.69148700003, "time": 1791580287.086382, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "inspector", "flow": "B06", "uptime": 289338.464170125, "time": 1791580289.859068, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "screen Inspector", "flow": "B06", "uptime": 289339.66453095834, "time": 1791580291.0594301, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.classes", "flow": "B06", "uptime": 289339.8213592084, "time": 1791580291.216258, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Class 1", "kind": "checked", "flow": "B06", "uptime": 289342.6327431667, "time": 1791580294.0276442, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.close", "kind": "tap", "flow": "B06", "uptime": 289342.76206333336, "time": 1791580294.1569638, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Waypoint \u00b7 Home", "flow": "B06", "uptime": 289345.4029365417, "time": 1791580296.79784, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "", "flow": "B06", "uptime": 289346.60469400004, "time": 1791580297.999599, "kind": "passed", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "Waypoint \u00b7 Home", "uptime": 289354.33964920836, "kind": "checked", "time": 1791580305.73456, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "", "uptime": 289354.3401292917, "kind": "ready", "time": 1791580305.73504, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "", "uptime": 289354.71632012504, "kind": "flow-start", "time": 1791580306.111232, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "baseline.open", "uptime": 289355.007928, "kind": "scroll", "time": 1791580306.402839, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "baseline.open", "uptime": 289357.012261, "kind": "tap", "time": 1791580308.4071732, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Classes", "kind": "checked", "flow": "B07", "uptime": 289359.31913408334, "time": 1791580310.714048, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "baseline.class.3", "kind": "tap", "flow": "B07", "uptime": 289359.834544875, "time": 1791580311.22946, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "Class 3 detail", "uptime": 289362.5630162917, "kind": "checked", "time": 1791580313.957933, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "baseline.inspector", "uptime": 289362.65381375, "kind": "tap", "time": 1791580314.0487309, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "inspector", "uptime": 289365.31971450004, "kind": "checked", "time": 1791580316.714634, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "screen Inspector", "uptime": 289366.46285404166, "kind": "checked", "time": 1791580317.857774, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B07", "detail": "baseline.classes", "uptime": 289366.55481245834, "kind": "tap", "time": 1791580317.949733, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580319.924489, "uptime": 289368.5295674167, "flow": "B07", "kind": "checked", "detail": "baseline.class.1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580320.7708611, "uptime": 289369.375939, "flow": "B07", "kind": "tap", "detail": "baseline.close", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580323.414922, "flow": "B07", "kind": "checked", "detail": "Waypoint \u00b7 Home", "uptime": 289372.0199975417, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580324.620239, "flow": "B07", "kind": "passed", "detail": "", "uptime": 289373.22531008336, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580331.191371, "flow": "B08", "kind": "checked", "detail": "Waypoint \u00b7 Home", "uptime": 289379.79644041666, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580331.191797, "flow": "B08", "kind": "ready", "detail": "", "uptime": 289379.796866375, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580331.512514, "flow": "B08", "kind": "flow-start", "detail": "", "uptime": 289380.1175814167, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580331.8032131, "flow": "B08", "kind": "scroll", "detail": "baseline.open", "uptime": 289380.40828183334, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580334.07193, "flow": "B08", "kind": "tap", "detail": "baseline.open", "uptime": 289382.67699687503, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B08", "detail": "Classes", "kind": "checked", "uptime": 289384.995113625, "time": 1791580336.390049, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B08", "detail": "baseline.class.3", "kind": "tap", "uptime": 289385.53200683335, "time": 1791580336.9269419, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580339.508795, "flow": "B08", "kind": "checked", "detail": "Class 3 detail", "uptime": 289388.1138577917, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B08", "detail": "system Back", "kind": "tap", "uptime": 289388.453341375, "time": 1791580339.848279, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289390.41946195834, "flow": "B08", "time": 1791580341.8144011, "kind": "tap", "detail": "baseline.class.3", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B08", "detail": "Class 3 detail", "kind": "checked", "uptime": 289392.9927651667, "time": 1791580344.387707, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B08", "detail": "baseline.close", "kind": "tap", "uptime": 289393.092048, "time": 1791580344.48699, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289395.73514966667, "flow": "B08", "time": 1791580347.130094, "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289396.94047645835, "flow": "B08", "time": 1791580348.335422, "kind": "passed", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580354.866414, "uptime": 289403.4714632917, "flow": "B09", "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580354.866956, "uptime": 289403.4720061667, "flow": "B09", "kind": "ready", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580355.1827369, "uptime": 289403.7877857917, "flow": "B09", "kind": "flow-start", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580355.4754019, "uptime": 289404.08045141667, "flow": "B09", "kind": "scroll", "detail": "baseline.open", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B09", "detail": "baseline.open", "kind": "tap", "uptime": 289406.18106083333, "time": 1791580357.576013, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B09", "detail": "Classes", "kind": "checked", "uptime": 289408.49464058335, "time": 1791580359.889595, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B09", "detail": "baseline.class.3", "kind": "tap", "uptime": 289409.012431, "time": 1791580360.4073858, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B09", "detail": "Class 3 detail", "kind": "checked", "uptime": 289411.558726, "time": 1791580362.953683, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B09", "detail": "baseline.close", "kind": "tap", "uptime": 289411.6556684167, "time": 1791580363.0506248, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580364.849972, "uptime": 289413.4550137917, "flow": "B09", "kind": "tap", "detail": "baseline.open", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580367.5220032, "uptime": 289416.12704241666, "flow": "B09", "kind": "checked", "detail": "Classes", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580368.032335, "uptime": 289416.63737429166, "flow": "B09", "kind": "checked", "detail": "baseline.class.1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580368.8904428, "uptime": 289417.4954815, "flow": "B09", "kind": "tap", "detail": "baseline.close", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580371.527955, "uptime": 289420.1329915, "flow": "B09", "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580372.733284, "uptime": 289421.338317, "flow": "B09", "kind": "passed", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289428.39115333336, "flow": "B10", "time": 1791580379.786124, "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289428.391547875, "flow": "B10", "time": 1791580379.786518, "kind": "ready", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289428.77632020833, "flow": "B10", "time": 1791580380.1712918, "kind": "flow-start", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289429.0626909167, "flow": "B10", "time": 1791580380.457662, "kind": "scroll", "detail": "baseline.open", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289431.1945368333, "flow": "B10", "time": 1791580382.589509, "kind": "tap", "detail": "baseline.open", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B10", "kind": "checked", "detail": "Classes", "uptime": 289433.5082859167, "time": 1791580384.90326, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B10", "kind": "tap", "detail": "baseline.class.3", "uptime": 289434.017823375, "time": 1791580385.412798, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289436.61452608334, "flow": "B10", "time": 1791580388.009503, "kind": "checked", "detail": "Class 3 detail", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"uptime": 289436.704377875, "flow": "B10", "time": 1791580388.099355, "kind": "tap", "detail": "baseline.utility", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B10", "kind": "checked", "detail": "screen Utility", "uptime": 289439.30739095836, "time": 1791580390.7023702, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B10", "kind": "tap", "detail": "baseline.close", "uptime": 289439.40175020834, "time": 1791580390.796729, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "B10", "time": 1791580393.403613, "detail": "Waypoint \u00b7 Home", "uptime": 289442.00863133336, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "passed", "flow": "B10", "time": 1791580394.604967, "detail": "", "uptime": 289443.20998283336, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580400.924051, "uptime": 289449.52906375, "flow": "C01", "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580400.9244962, "uptime": 289449.52950833336, "flow": "C01", "kind": "ready", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580401.301666, "uptime": 289449.906677375, "flow": "C01", "kind": "flow-start", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580401.618314, "uptime": 289450.22332654166, "flow": "C01", "kind": "scroll", "detail": "Open Classes sheet", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Open Classes sheet", "uptime": 289452.342142125, "time": 1791580403.737132, "flow": "C01", "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C01", "kind": "checked", "detail": "classes-sheet-state = Depth 0", "uptime": 289453.84422995837, "time": 1791580405.239221, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580405.965986, "uptime": 289454.57099462504, "flow": "C01", "kind": "tap", "detail": "context.class.3", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580408.684679, "flow": "C01", "detail": "Stack depth", "uptime": 289457.289684875, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580408.886966, "flow": "C01", "detail": "classes-sheet-state = Sheet 3390449D \u00b7 Depth 1", "uptime": 289457.49197233334, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580410.0492759, "flow": "C01", "detail": "screen Class 3", "uptime": 289458.654281, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580410.447725, "flow": "C01", "detail": "system Back", "uptime": 289459.05273008335, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580412.106522, "uptime": 289460.711525875, "flow": "C01", "kind": "checked", "detail": "classes-sheet-state = Sheet 3390449D \u00b7 Depth 0", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580412.22942, "uptime": 289460.83442304167, "flow": "C01", "kind": "tap", "detail": "context.close", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580414.977579, "flow": "C01", "detail": "", "uptime": 289463.58257795835, "kind": "passed", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C02", "time": 1791580422.054328, "detail": "Waypoint \u00b7 Home", "uptime": 289470.65932375, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "ready", "flow": "C02", "time": 1791580422.054844, "detail": "", "uptime": 289470.65984004166, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "flow-start", "flow": "C02", "time": 1791580422.376507, "detail": "", "uptime": 289470.98150087503, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "tap", "flow": "C02", "time": 1791580422.4735498, "detail": "root.open", "uptime": 289471.0785450417, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580425.4953299, "flow": "C02", "detail": "Root opened Class 3 \u00b7 Through Classes", "uptime": 289474.10032233334, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580425.695458, "flow": "C02", "detail": "classes-sheet-state = Depth 1", "uptime": 289474.300450625, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580426.869627, "flow": "C02", "detail": "screen Class 3", "uptime": 289475.47461795836, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580427.259676, "flow": "C02", "detail": "system Back", "uptime": 289475.86466745834, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C02", "time": 1791580428.951673, "detail": "classes-sheet-state = Depth 0", "uptime": 289477.5566632917, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C02", "time": 1791580429.488957, "detail": "context.class.1", "uptime": 289478.09394604166, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "passed", "flow": "C02", "time": 1791580431.397138, "detail": "", "uptime": 289480.00212408334, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "checked", "detail": "Waypoint \u00b7 Home", "uptime": 289486.5400572917, "time": 1791580437.935075, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "ready", "detail": "", "uptime": 289486.54058545834, "time": 1791580437.9356031, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "flow-start", "detail": "", "uptime": 289486.86779545835, "time": 1791580438.262813, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "tap", "detail": "root.fallback", "uptime": 289486.945223625, "time": 1791580438.340241, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "tap", "detail": "picker Direct detail", "uptime": 289489.40427212504, "time": 1791580440.799292, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580443.466011, "flow": "C03", "detail": "root.fallback = Direct detail", "uptime": 289492.070989, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "tap", "flow": "C03", "time": 1791580443.5371032, "detail": "root.open", "uptime": 289492.14208150003, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "checked", "detail": "Root opened Class 3 \u00b7 Direct detail", "uptime": 289495.0469135417, "time": 1791580446.441938, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "checked", "detail": "screen Class 3", "uptime": 289496.21882020833, "time": 1791580447.6138458, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "checked", "detail": "classes-sheet-state = Depth 0", "uptime": 289496.42366433336, "time": 1791580447.8186898, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C03", "kind": "tap", "detail": "context.close", "uptime": 289496.5774127084, "time": 1791580447.9724379, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580450.604531, "uptime": 289499.20950320835, "flow": "C03", "kind": "checked", "detail": "Waypoint \u00b7 Home", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580451.8050752, "uptime": 289500.410044875, "flow": "C03", "kind": "passed", "detail": "", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580458.763768, "flow": "C04", "detail": "Waypoint \u00b7 Home", "uptime": 289507.36873333337, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580458.764816, "flow": "C04", "detail": "", "uptime": 289507.36978045834, "kind": "ready", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580459.138201, "flow": "C04", "detail": "", "uptime": 289507.7431655, "kind": "flow-start", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580459.558316, "flow": "C04", "detail": "Open Classes sheet", "uptime": 289508.16328120837, "kind": "scroll", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580461.87872, "flow": "C04", "detail": "Open Classes sheet", "uptime": 289510.48368350003, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580463.796618, "uptime": 289512.4015800417, "flow": "C04", "kind": "checked", "detail": "classes-sheet-state = Depth 0", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "tap", "detail": "root.open", "uptime": 289513.630639125, "time": 1791580465.025679, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580467.365028, "uptime": 289515.96998595836, "flow": "C04", "kind": "checked", "detail": "classes-sheet-state = Sheet 74511039 \u00b7 Depth 1", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "tap", "detail": "root.class", "uptime": 289516.4296675417, "time": 1791580467.824709, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580470.834022, "uptime": 289519.4389775, "kind": "tap", "flow": "C04", "detail": "picker Class 4", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "checked", "detail": "root.class = Class 4", "uptime": 289522.68814050005, "time": 1791580474.083187, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580474.463742, "uptime": 289523.0686950834, "kind": "tap", "flow": "C04", "detail": "root.open", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "checked", "detail": "classes-sheet-state = Sheet 74511039 \u00b7 Depth 2", "uptime": 289525.165598625, "time": 1791580476.560647, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "checked", "detail": "screen Class 4", "uptime": 289526.4289245, "time": 1791580477.8239741, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C04", "kind": "passed", "detail": "", "uptime": 289527.6307057917, "time": 1791580479.025759, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C05", "time": 1791580490.340764, "detail": "Waypoint \u00b7 Home", "uptime": 289538.94570433337, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "ready", "flow": "C05", "time": 1791580490.34146, "detail": "", "uptime": 289538.9464005834, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "flow-start", "flow": "C05", "time": 1791580490.7735128, "detail": "", "uptime": 289539.3784519167, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "scroll", "flow": "C05", "time": 1791580491.3858209, "detail": "Open Classes sheet", "uptime": 289539.99076045834, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "tap", "flow": "C05", "time": 1791580494.410787, "detail": "Open Classes sheet", "uptime": 289543.01572325, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580496.927631, "flow": "C05", "detail": "classes-sheet-state = Depth 0", "uptime": 289545.532566, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580499.3263168, "uptime": 289547.931250125, "kind": "tap", "flow": "C05", "detail": "context.class.3", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "classes-sheet-state = Sheet 9A9EB75C \u00b7 Depth 1", "flow": "C05", "uptime": 289550.55795225, "time": 1791580501.953022, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "Present child sheet", "flow": "C05", "uptime": 289552.0536986667, "time": 1791580503.448769, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C05", "detail": "Child Inspector", "uptime": 289555.044932625, "kind": "checked", "time": 1791580506.440006, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C05", "detail": "context.close", "uptime": 289555.387488625, "kind": "tap", "time": 1791580506.782562, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "classes-sheet-state = Sheet 9A9EB75C \u00b7 Depth 1", "flow": "C05", "uptime": 289557.985108125, "time": 1791580509.3801842, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "screen Class 3", "flow": "C05", "uptime": 289559.377925125, "time": 1791580510.773003, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "context.close", "flow": "C05", "uptime": 289559.76363483333, "time": 1791580511.158712, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C05", "detail": "Waypoint \u00b7 Home", "uptime": 289563.0558155833, "kind": "checked", "time": 1791580514.4508948, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C05", "detail": "", "uptime": 289564.261081125, "kind": "passed", "time": 1791580515.656163, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C06", "detail": "Waypoint \u00b7 Home", "uptime": 289576.2587400417, "kind": "checked", "time": 1791580527.65383, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C06", "detail": "", "uptime": 289576.25969033333, "kind": "ready", "time": 1791580527.65478, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C06", "detail": "", "uptime": 289576.85454045836, "kind": "flow-start", "time": 1791580528.249632, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "C06", "detail": "Open Classes sheet", "uptime": 289577.32946508337, "kind": "scroll", "time": 1791580528.724556, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580531.663017, "flow": "C06", "detail": "Open Classes sheet", "uptime": 289580.26792358333, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580533.891943, "uptime": 289582.49684783333, "flow": "C06", "kind": "checked", "detail": "classes-sheet-state = Depth 0", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580534.8347502, "uptime": 289583.43965350004, "flow": "C06", "kind": "tap", "detail": "context.class.3", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580536.622661, "flow": "C06", "detail": "root.override", "uptime": 289585.2275635, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C06", "time": 1791580539.421735, "detail": "Library detail 99", "uptime": 289588.026635875, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C06", "time": 1791580539.682394, "detail": "state.tab = Library", "uptime": 289588.28729375004, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C06", "time": 1791580539.87708, "detail": "state.home = Root", "uptime": 289588.48198025004, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "C06", "time": 1791580540.076596, "detail": "state.library = Detail 99", "uptime": 289588.68149645836, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "passed", "flow": "C06", "time": 1791580541.279624, "detail": "", "uptime": 289589.8845215417, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "checked", "flow": "W04", "time": 1791580552.562741, "detail": "Waypoint \u00b7 Home", "uptime": 289601.167631125, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "ready", "flow": "W04", "time": 1791580552.5632339, "detail": "", "uptime": 289601.168124125, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "flow-start", "flow": "W04", "time": 1791580553.034617, "detail": "", "uptime": 289601.639504875, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"kind": "scroll", "flow": "W04", "time": 1791580553.399076, "detail": "Detachable editor test", "uptime": 289602.00396554166, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "W04", "detail": "Detachable editor test", "uptime": 289604.8020641667, "kind": "tap", "time": 1791580556.197178, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"detail": "root.collapse", "flow": "W04", "uptime": 289606.6925685, "time": 1791580558.087683, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "W04", "detail": "Unavailable", "uptime": 289608.9800691667, "kind": "checked", "time": 1791580560.375186, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "W04", "detail": "Sheet fallback", "uptime": 289610.14859450003, "kind": "checked", "time": 1791580561.5437121, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "W04", "detail": "windowLab.openEditor", "uptime": 289610.630049125, "kind": "tap", "time": 1791580562.025167, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580573.94209, "flow": "W04", "detail": "iPhone routing check", "uptime": 289622.54696012504, "kind": "typed", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580575.468437, "uptime": 289624.07330725004, "flow": "W04", "kind": "tap", "detail": "windowLab.review", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580578.68609, "flow": "W04", "kind": "checked", "detail": "screen Review draft", "uptime": 289627.29095837503, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580579.978709, "flow": "W04", "kind": "checked", "detail": "iphone-test-draft", "uptime": 289628.58357625, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580581.2639198, "flow": "W04", "kind": "checked", "detail": "iPhone routing check", "uptime": 289629.86878687504, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580581.8076549, "flow": "W04", "kind": "tap", "detail": "system Back", "uptime": 289630.4125210834, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580585.064299, "uptime": 289633.66916208336, "flow": "W04", "kind": "checked", "detail": "iPhone routing check", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580585.253028, "uptime": 289633.85789083334, "flow": "W04", "kind": "tap", "detail": "windowLab.closeEditor", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580587.677545, "flow": "W04", "kind": "tap", "detail": "windowLab.openEditor", "uptime": 289636.28240625, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580590.426817, "uptime": 289639.03167645837, "flow": "W04", "kind": "checked", "detail": "iPhone routing check", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580590.668607, "uptime": 289639.273464875, "flow": "W04", "kind": "tap", "detail": "windowLab.closeEditor", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580593.071824, "flow": "W04", "detail": "windowLab.probe", "uptime": 289641.67668033333, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580595.699132, "flow": "W04", "kind": "checked", "detail": "Multiple windows unavailable", "uptime": 289644.30398616666, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580595.9269881, "flow": "W04", "kind": "checked", "detail": "windowLab.pending = None", "uptime": 289644.5318425417, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580596.452812, "flow": "W04", "kind": "tap", "detail": "windowLab.probe", "uptime": 289645.05766625004, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580599.053286, "flow": "W04", "detail": "Multiple windows unavailable", "uptime": 289647.65813837503, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580599.463931, "flow": "W04", "detail": "windowLab.openEditor", "uptime": 289648.0687832917, "kind": "tap", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580602.173697, "flow": "W04", "kind": "checked", "detail": "iPhone routing check", "uptime": 289650.77854612505, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580602.388441, "flow": "W04", "kind": "tap", "detail": "windowLab.closeEditor", "uptime": 289650.99328991666, "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580605.175848, "flow": "W04", "detail": "Multiple windows unavailable", "uptime": 289653.7806948334, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580605.3631802, "flow": "W04", "detail": "windowLab.pending = None", "uptime": 289653.9680265834, "kind": "checked", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"time": 1791580606.568527, "flow": "W04", "detail": "", "uptime": 289655.17337204167, "kind": "passed", "runID": "c15ed13a-2b70-496a-9077-ef223a41d46b"}
+{"flow": "B01", "kind": "checked", "detail": "Waypoint \u00b7 Home", "uptime": 289786.5022239584, "time": 1791580737.8974838, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "kind": "ready", "detail": "", "uptime": 289786.503373625, "time": 1791580737.898635, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "kind": "flow-start", "detail": "", "uptime": 289786.93236758333, "time": 1791580738.327629, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "Push detail", "uptime": 289787.362625, "flow": "B01", "time": 1791580738.757886, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "checked", "detail": "Home detail 1", "uptime": 289790.1584062917, "time": 1791580741.55367, "flow": "B01", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "Push another detail", "uptime": 289790.6118271667, "time": 1791580742.007091, "flow": "B01", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580744.592464, "kind": "checked", "detail": "Home detail 2", "uptime": 289793.1971981667, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580744.848762, "kind": "tap", "detail": "system Back", "uptime": 289793.4534955833, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580746.4982939, "kind": "checked", "detail": "state.home = Detail 1", "uptime": 289795.1030270833, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580746.914835, "kind": "tap", "detail": "Return to root", "uptime": 289795.51956683333, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "detail": "Waypoint \u00b7 Home", "uptime": 289798.059838125, "kind": "checked", "time": 1791580749.4551082, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "detail": "root.collapse", "uptime": 289798.21176775004, "kind": "tap", "time": 1791580749.607038, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "detail": "state.home", "uptime": 289799.55077487504, "kind": "scroll", "time": 1791580750.9460459, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580753.309194, "kind": "checked", "detail": "state.home = Root", "uptime": 289801.9139215417, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B01", "time": 1791580754.514367, "kind": "passed", "detail": "", "uptime": 289803.11909233336, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "checked", "detail": "Waypoint \u00b7 Home", "uptime": 289811.38546329166, "time": 1791580762.780744, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "ready", "detail": "", "uptime": 289811.38627775, "time": 1791580762.781558, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "flow-start", "detail": "", "uptime": 289811.81254866667, "time": 1791580763.207831, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "Prepare Library without switching", "uptime": 289812.24062729167, "time": 1791580763.6359081, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B04", "kind": "checked", "uptime": 289814.7735315417, "detail": "Waypoint \u00b7 Home", "time": 1791580766.1688151, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B04", "kind": "tap", "uptime": 289814.869847, "detail": "Library", "time": 1791580766.26513, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "checked", "detail": "Library detail 2", "uptime": 289819.0668950417, "time": 1791580770.462182, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "system Back", "uptime": 289819.27538404166, "time": 1791580770.670671, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B04", "kind": "checked", "uptime": 289821.81957725, "detail": "Library detail 1", "time": 1791580773.2148662, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B04", "kind": "tap", "uptime": 289821.8918086667, "detail": "Home", "time": 1791580773.287098, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "Clear Library history", "uptime": 289825.05437258334, "time": 1791580776.449664, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"flow": "B04", "kind": "tap", "uptime": 289826.4842437084, "detail": "Library", "time": 1791580777.879537, "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "checked", "detail": "Waypoint \u00b7 Library", "uptime": 289830.44483287504, "time": 1791580781.840129, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "tap", "detail": "root.collapse", "uptime": 289830.574760875, "time": 1791580781.970057, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "scroll", "detail": "state.library", "uptime": 289831.89632991666, "time": 1791580783.291627, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "checked", "detail": "state.library = Root", "uptime": 289834.06526008336, "time": 1791580785.4605598, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}
+{"kind": "passed", "detail": "", "uptime": 289835.27051733335, "time": 1791580786.6658192, "flow": "B04", "runID": "04c83d1f-4aad-4b86-ad2a-05df82048e5d"}

@@ -5,6 +5,26 @@
   <p><img src="https://img.shields.io/badge/iOS-17%2B-000000?logo=apple" alt="iOS 17+"> <img src="https://img.shields.io/badge/macOS-14%2B-000000?logo=apple" alt="macOS 14+"> <img src="https://img.shields.io/badge/Swift-6.2%2B-F05138?logo=swift&amp;logoColor=white" alt="Swift 6.2+"></p>
 </div>
 
+## Routing examples
+
+- **Open a sheet already at a detail.** Request Class 3 through Classes: the sheet
+  opens at Class 3, and Back reveals the Classes list. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c02-open-class-through-parent.mp4).
+- **Route into an open sheet.** Request another class and push it into the existing
+  Classes stack, preserving its sheet identity. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c04-reuse-existing-context.mp4).
+- **Present a sheet from a sheet.** Open a child Inspector from Class 3, then close
+  it to return to the same class and navigation stack. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/c05-nested-sheet.mp4).
+- **Switch tabs and open a destination.** Select Library, then push a detail while
+  Home keeps its own navigation history. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b02-switch-then-push.mp4).
+- **Replace a sheet while inside its navigation stack.** Move from a class detail
+  to Inspector, then return to the Classes list. [Watch the flow](https://github.com/Aeastr/Waypoint/releases/download/demo-recordings-2026-10-09/b07-replace-sheet-from-detail.mp4).
+- **Open app windows and prominent editor scenes.** Route to a registered window
+  or request a separate UIKit scene with prominent placement and a dedicated drag
+  handle. [See window setup](Sources/Waypoint/Documentation.docc/Presentations/WindowRouting.md).
+
+Browse [all 17 iPhone recordings](https://github.com/Aeastr/Waypoint/releases/tag/demo-recordings-2026-10-09),
+or open the [HTML playback gallery](Resources/Recordings/index.html) locally for
+a flow index and explanations beneath each video.
+
 ## Installation
 
 In Xcode, choose **File → Add Package Dependencies**, enter
@@ -95,15 +115,24 @@ to SwiftUI. Choose the style for each supported platform in your route definitio
 
 Calling `present` replaces the current request and clears the other presentation
 property. Clearing a sheet route dismisses its bound sheet; clearing a pending
-window request does not close an already opened window. The bridge forwards only
-the window ID, does not pass the route value to the new scene, and clears the
-request after calling `openWindow`. It observes subsequent request changes, so
+window request does not close an already opened window. For `.window(id:)`, the
+bridge forwards only the window ID and does not pass the route value to the new
+scene. It consumes the pending request before dispatching it and observes
+subsequent request changes, so
 install it before requesting a window.
 
-Waypoint exposes state synchronously on the main actor. Its APIs provide no error
-result, delivery callback, or built-in warning when a scene cannot open. A cleared
-window request establishes that it was forwarded, not that a window appeared.
+Waypoint exposes state synchronously on the main actor. Regular SwiftUI window
+requests provide no activation error result. Prominent requests can report errors
+through the presenter’s `onError` handler. Neither provides a visibility completion
+callback. A cleared request establishes consumption, not that a window appeared.
 Waypoint does not persist routes or restore navigation; the app owns those tasks.
+
+For Mail-style detachable editors on iPad, routes can request
+`.prominentWindow(activityType:)`. The window presenter requests a separate UIKit
+scene with prominent placement and route-supplied user activity data. Add
+`.routerWindowDragHandle()` to a dedicated grabber in that scene. Your app must
+register and receive the activity and own the editor scene; see
+[detachable window setup](Sources/Waypoint/Documentation.docc/Presentations/WindowRouting.md#open-a-detachable-sheet-like-scene-on-ipad).
 
 ## Testing app
 
@@ -112,6 +141,10 @@ the **WaypointDemo** scheme on macOS or an iOS simulator. The app exercises both
 routers, independent tab histories, path replacement, sheets, and platform-adaptive
 window requests, with live router state. See the [demo guide](Demo/README.md) for
 manual checks and build instructions.
+
+Browse the [iPhone recordings folder](Resources/Recordings) or open the
+[playback gallery](Resources/Recordings/index.html) to watch the 17 scripted
+routing flows. Open the gallery locally; its videos are served as GitHub Release assets.
 
 ## Documentation
 

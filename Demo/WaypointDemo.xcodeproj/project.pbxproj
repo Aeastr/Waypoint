@@ -4,17 +4,21 @@
 	classes = {};
 	objectVersion = 60;
 	objects = {
-		A00000000000000000000001 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2660; TargetAttributes = {A00000000000000000000002 = {CreatedOnToolsVersion = 26.6; }; }; }; buildConfigurationList = A00000000000000000000010; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A00000000000000000000003; packageReferences = (A00000000000000000000020); productRefGroup = A00000000000000000000005; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000002); };
+		A00000000000000000000001 = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = YES; LastUpgradeCheck = 2660; TargetAttributes = {A00000000000000000000002 = {CreatedOnToolsVersion = 26.6; }; }; }; buildConfigurationList = A00000000000000000000010; compatibilityVersion = "Xcode 15.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A00000000000000000000003; packageReferences = (A00000000000000000000020); productRefGroup = A00000000000000000000005; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000002, B00000000000000000000001); };
 		A00000000000000000000002 = {isa = PBXNativeTarget; buildConfigurationList = A00000000000000000000011; buildPhases = (A00000000000000000000006, A00000000000000000000007, A00000000000000000000008); buildRules = (); dependencies = (); name = WaypointDemo; packageProductDependencies = (A00000000000000000000021); productName = WaypointDemo; productReference = A00000000000000000000009; productType = "com.apple.product-type.application"; };
-		A00000000000000000000003 = {isa = PBXGroup; children = (A00000000000000000000004, A00000000000000000000005); sourceTree = "<group>"; };
-		A00000000000000000000004 = {isa = PBXGroup; children = (A0000000000000000000000A); path = Sources; sourceTree = "<group>"; };
-		A00000000000000000000005 = {isa = PBXGroup; children = (A00000000000000000000009); name = Products; sourceTree = "<group>"; };
-		A00000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A0000000000000000000000B); runOnlyForDeploymentPostprocessing = 0; };
+		A00000000000000000000003 = {isa = PBXGroup; children = (A00000000000000000000004, B00000000000000000000002, A00000000000000000000005); sourceTree = "<group>"; };
+		A00000000000000000000004 = {isa = PBXGroup; children = (A0000000000000000000000A, A0000000000000000000000C, A0000000000000000000000E); path = Sources; sourceTree = "<group>"; };
+		A00000000000000000000005 = {isa = PBXGroup; children = (A00000000000000000000009, B00000000000000000000003); name = Products; sourceTree = "<group>"; };
+		A00000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A0000000000000000000000B, A0000000000000000000000D, A0000000000000000000000F); runOnlyForDeploymentPostprocessing = 0; };
 		A00000000000000000000007 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000022); runOnlyForDeploymentPostprocessing = 0; };
 		A00000000000000000000008 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 		A00000000000000000000009 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaypointDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0000000000000000000000A = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointDemoApp.swift; sourceTree = "<group>"; };
 		A0000000000000000000000B = {isa = PBXBuildFile; fileRef = A0000000000000000000000A; };
+		A0000000000000000000000C = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextualRouting.swift; sourceTree = "<group>"; };
+		A0000000000000000000000D = {isa = PBXBuildFile; fileRef = A0000000000000000000000C; };
+		A0000000000000000000000E = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProminentWindowLab.swift; sourceTree = "<group>"; };
+		A0000000000000000000000F = {isa = PBXBuildFile; fileRef = A0000000000000000000000E; };
 		A00000000000000000000010 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000012, A00000000000000000000013); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 		A00000000000000000000011 = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000014, A00000000000000000000015); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
 		A00000000000000000000012 = {isa = XCBuildConfiguration; buildSettings = {CLANG_ENABLE_MODULES = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)"); ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)"; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
@@ -24,6 +28,19 @@
 		A00000000000000000000020 = {isa = XCLocalSwiftPackageReference; relativePath = ..; };
 		A00000000000000000000021 = {isa = XCSwiftPackageProductDependency; package = A00000000000000000000020; productName = Waypoint; };
 		A00000000000000000000022 = {isa = PBXBuildFile; productRef = A00000000000000000000021; };
+        B00000000000000000000001 = {isa = PBXNativeTarget; buildConfigurationList = B00000000000000000000008; buildPhases = (B00000000000000000000006, B00000000000000000000007); buildRules = (); dependencies = (B0000000000000000000000B); name = WaypointDemoUITests; productName = WaypointDemoUITests; productReference = B00000000000000000000003; productType = "com.apple.product-type.bundle.ui-testing"; };
+        B00000000000000000000002 = {isa = PBXGroup; children = (B00000000000000000000004); path = UITests; sourceTree = "<group>"; };
+        B00000000000000000000003 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaypointDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        B00000000000000000000004 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingFlows.swift; sourceTree = "<group>"; };
+        B00000000000000000000005 = {isa = PBXBuildFile; fileRef = B00000000000000000000004; };
+        B00000000000000000000006 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B00000000000000000000005); runOnlyForDeploymentPostprocessing = 0; };
+        B00000000000000000000007 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+        B00000000000000000000008 = {isa = XCConfigurationList; buildConfigurations = (B00000000000000000000009, B0000000000000000000000A); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+        B00000000000000000000009 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = world.aethers.WaypointDemoUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WaypointDemo;}; name = Debug; };
+        B0000000000000000000000A = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = world.aethers.WaypointDemoUITests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WaypointDemo;}; name = Release; };
+        B0000000000000000000000B = {isa = PBXTargetDependency; target = A00000000000000000000002; targetProxy = B0000000000000000000000C; };
+        B0000000000000000000000C = {isa = PBXContainerItemProxy; containerPortal = A00000000000000000000001; proxyType = 1; remoteGlobalIDString = A00000000000000000000002; remoteInfo = WaypointDemo; };
+
 	};
 	rootObject = A00000000000000000000001;
 }

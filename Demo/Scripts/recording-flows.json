@@ -1,0 +1,19 @@
+{
+  "B01": {"title": "Push, push, and return", "description": "Push two Home details, go Back to Detail 1, then return to the root. The visible path follows each navigation step."},
+  "B02": {"title": "Switch tab, then push", "description": "Select Library and open Detail 1 through a single app action, while Home keeps its empty path."},
+  "B03": {"title": "Independent tab histories", "description": "Build different stacks in Home and Library, then switch between them. Each tab returns to its own detail."},
+  "B04": {"title": "Prepare an unselected tab", "description": "Prepare Library’s stack from Home, visit its details, then clear its history and return to Library’s root."},
+  "B05": {"title": "Present and dismiss a sheet", "description": "Open contextual Classes above Home Detail 1, then close the sheet and return to the same Home detail."},
+  "B06": {"title": "Replace an open sheet", "description": "Replace local Classes with Inspector, return to the Classes list, then dismiss the sheet."},
+  "B07": {"title": "Replace a sheet from its detail", "description": "Open Class 3 inside local Classes, replace the sheet with Inspector, then return to Classes at its list root."},
+  "B08": {"title": "Local navigation inside a sheet", "description": "Use app-owned SwiftUI navigation to open Class 3, go Back, open it again, and close the Waypoint-presented sheet."},
+  "B09": {"title": "Dismiss and reopen", "description": "Close local Classes from Class 3, then reopen the sheet. The reopened sheet starts at the Classes list."},
+  "B10": {"title": "Replace a sheet with Utility", "description": "Request Utility from a local Class 3 detail. Utility replaces the sheet content on iPhone; closing it returns to Home."},
+  "C01": {"title": "Router-driven navigation in a sheet", "description": "Push Class 3 through the Classes context router, then go Back. The sheet keeps the same identity as its path changes."},
+  "C02": {"title": "Open a class through its parent", "description": "Request Class 3 from Home. The sheet opens with an initialized Classes → Class 3 stack, and Back reveals the Classes list."},
+  "C03": {"title": "Open a class directly", "description": "Choose Direct detail and request Class 3. It opens as the sheet’s root page; closing it returns to Home."},
+  "C04": {"title": "Reuse the existing context", "description": "Open Classes, then request Class 3 and Class 4 through the root controls. Both pushes use the same sheet identity and context."},
+  "C05": {"title": "Present a nested sheet", "description": "Present a child Inspector from Class 3. Close the child to reveal the same Class 3 stack, then close Classes to return to Home."},
+  "C06": {"title": "Route through the root override", "description": "Invoke the demo’s root override while Class 3 is open. Classes dismisses, Library becomes selected, and Detail 99 appears."},
+  "W04": {"title": "Editor fallback on iPhone", "description": "Edit a draft in the sheet fallback, review it, and reopen it with the text retained. Repeat the unavailable-window request and check that its pending state clears."}
+}

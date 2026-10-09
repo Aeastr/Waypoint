@@ -20,8 +20,9 @@ presentation is visible. Direct assignment to either public property bypasses
 this mutual-clearing behavior; use `present` when you need it.
 
 Presentation calls are synchronous main-actor state changes. Waypoint does not
-queue multiple requests, throw presentation errors, issue built-in warnings, or
-provide completion callbacks. A later request can replace an earlier pending
+queue multiple requests, throw from `present`, issue built-in warnings, or
+provide visibility completion callbacks. The window presenter can report prominent
+scene activation errors through its `onError` handler. A later request can replace an earlier pending
 request before SwiftUI processes it. The app decides which platform uses which
 style and registers any required scenes. See <doc:WindowRouting> for scene setup
 and the forwarding contract.
@@ -37,4 +38,4 @@ and the forwarding contract.
 
 - <doc:WindowRouting>
 - ``Waypoint/WindowPresentation``
-- ``SwiftUI/View/routerWindowPresenter(request:)``
+- ``SwiftUI/View/routerWindowPresenter(request:onError:)``

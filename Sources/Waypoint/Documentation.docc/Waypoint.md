@@ -23,3 +23,4 @@ The app supplies destination views, scene registrations, and persistence.
 
 - <doc:Navigation>
 - <doc:Presentations>
+- <doc:ContextualOpening>

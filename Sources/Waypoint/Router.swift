@@ -17,7 +17,7 @@ public final class Router<Destination: Hashable, Presentation: PresentationRoute
     ///
     /// SwiftUI can clear this binding when the user dismisses the sheet.
     public var presentedSheet: Presentation?
-    /// The pending window request, cleared by the window presenter after forwarding.
+    /// The pending window request, consumed by the window presenter before dispatch.
     ///
     /// This is not a record of open windows. Setting it to `nil` does not close one.
     public var presentedWindow: WindowPresentation<Presentation>?
@@ -54,7 +54,7 @@ public final class Router<Destination: Hashable, Presentation: PresentationRoute
         case .sheet:
             presentedWindow = nil
             presentedSheet = presentation
-        case .window(let id):
+        case .window(let id), .prominentWindow(let id):
             presentedSheet = nil
             presentedWindow = WindowPresentation(windowID: id, route: presentation)
         }
@@ -78,7 +78,7 @@ public final class TabRouter<Tab: Hashable, Destination: Hashable, Presentation:
     ///
     /// SwiftUI can clear this binding when the user dismisses the sheet.
     public var presentedSheet: Presentation?
-    /// The pending window request, cleared by the window presenter after forwarding.
+    /// The pending window request, consumed by the window presenter before dispatch.
     ///
     /// This is not a record of open windows. Setting it to `nil` does not close one.
     public var presentedWindow: WindowPresentation<Presentation>?
@@ -156,7 +156,7 @@ public final class TabRouter<Tab: Hashable, Destination: Hashable, Presentation:
         case .sheet:
             presentedWindow = nil
             presentedSheet = presentation
-        case .window(let id):
+        case .window(let id), .prominentWindow(let id):
             presentedSheet = nil
             presentedWindow = WindowPresentation(windowID: id, route: presentation)
         }

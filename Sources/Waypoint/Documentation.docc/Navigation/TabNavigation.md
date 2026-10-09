@@ -29,8 +29,8 @@ struct TabsView: View {
         TabView(selection: $router.selectedTab) {
             NavigationStack(path: $router[.home]) {
                 Button("Open library detail") {
-                    router.navigate(to: .detail, in: .library)
                     router.selectedTab = .library
+                    router.navigate(to: .detail, in: .library)
                 }
                 .navigationDestination(for: AppDestination.self) { _ in
                     Text("Home detail")
@@ -58,3 +58,9 @@ access time. Missing paths read as empty, and assigning an empty path removes
 its stored entry. Sheet and window properties belong to the shared router, so
 switching tabs does not dismiss a presentation. Attach presentation modifiers to
 the tab container when needed.
+
+For a cross-tab action, select the target tab before pushing its destination, as
+shown above. You can also prepare a tab's path before selecting it, or update its
+path without selecting it at all. Waypoint applies these state changes
+synchronously; statement order does not guarantee separate visible transitions.
+The consuming app owns animation and transition sequencing.

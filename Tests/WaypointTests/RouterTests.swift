@@ -15,6 +15,34 @@ final class RouterTests: XCTestCase {
         XCTAssertEqual(router.presentedWindow?.route, .settings)
     }
 
+    func testProminentRequestsPreserveContentAndReplaceSheets() {
+        let router = Router<Route, Presentation>(path: [.detail])
+        router.present(.editor)
+        router.present(.draft)
+        let request = router.presentedWindow!
+        XCTAssertNil(router.presentedSheet)
+        XCTAssertEqual(request.presentationStyle, .prominentWindow(activityType: "example.draft"))
+        XCTAssertEqual(request.windowID, "example.draft")
+        let activity = NSUserActivity(activityType: request.windowID)
+        request.route.configureWindowActivity(activity)
+        XCTAssertEqual(activity.userInfo?["draftID"] as? String, "draft-42")
+        router.present(.draft)
+        XCTAssertNotEqual(router.presentedWindow?.id, request.id)
+        XCTAssertEqual(router.path, [.detail])
+        router.present(.editor)
+        XCTAssertNil(router.presentedWindow)
+    }
+
+    func testTabRouterProminentRequestPreservesSelectionAndStacks() {
+        let router = TabRouter<Tab, Route, Presentation>(initialTab: .library, paths: [.home: [.detail]])
+        router.present(.editor)
+        router.present(.draft)
+        XCTAssertNil(router.presentedSheet)
+        XCTAssertEqual(router.presentedWindow?.presentationStyle, .prominentWindow(activityType: "example.draft"))
+        XCTAssertEqual(router.selectedTab, .library)
+        XCTAssertEqual(router[.home], [.detail])
+    }
+
     func testStackReplacementAndPoppingPreserveSheet() {
         let router = Router<Route, Presentation>()
         router.present(.editor)
@@ -92,9 +120,17 @@ private enum Route: Hashable { case detail }
 private enum Presentation: String, PresentationRoute {
     case editor
     case settings
+    case draft
 
+    @MainActor func configureWindowActivity(_ activity: NSUserActivity) {
+        if self == .draft { activity.userInfo = ["draftID": "draft-42"] }
+    }
     var id: String { rawValue }
     var presentationStyle: RoutePresentationStyle {
-        self == .settings ? .window(id: "settings") : .sheet
+        switch self {
+        case .settings: .window(id: "settings")
+        case .draft: .prominentWindow(activityType: "example.draft")
+        case .editor: .sheet
+        }
     }
 }
