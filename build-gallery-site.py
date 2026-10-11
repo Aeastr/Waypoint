@@ -45,6 +45,9 @@ def main():
     page = (source / 'index.html').read_text()
     for url, relative in replacements.items():
         page = page.replace('src="' + html.escape(url, quote=True) + '"', 'src="' + relative + '"')
+        if manifest.get('galleryURL'):
+            hosted_url = manifest['galleryURL'] + relative
+            page = page.replace('src="' + html.escape(hosted_url, quote=True) + '"', 'src="' + relative + '"')
     (output / 'index.html').write_text(page)
     for clip in manifest['clips']:
         clip['file'] = replacements[clip['file']]
