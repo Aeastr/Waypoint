@@ -19,6 +19,8 @@ for clip in manifest['clips']:
         continue
     name = clip['file']
     flow = clip['flow']
+    gallery_url = manifest.get('galleryURL')
+    playback_url = gallery_url + 'videos/' + name.rsplit('/', 1)[-1] if gallery_url else name
     info = catalog.get(flow, {'title': pathlib.Path(name).stem.replace('-', ' '), 'description': ''})
     title, description = info['title'], info['description']
     if not name.startswith('https://'):
@@ -29,14 +31,15 @@ for clip in manifest['clips']:
         f'<header class="card-heading"><span class="flow-id">{escape(flow)}</span>'
         f'<h2 id="title-{escape(flow)}">{escape(title)}</h2></header>'
         f'<div class="player"><video controls preload="metadata" playsinline aria-label="{escape(title)}" '
-        f'src="{escape(name, quote=True)}"></video></div>'
+        f'><source src="{escape(playback_url, quote=True)}" type="video/mp4"></video></div>'
         f'<div class="caption"><p>{escape(description)}</p>'
         f'<div class="video-links"><a href="{escape(name, quote=True)}">Download video</a>'
         f'<span>{duration}</span><a href="#flow-index">Back to index ↑</a></div></div></article>'
     )
     if flow[:1] in index:
         index[flow[:1]].append(f'<li><a href="#{escape(flow)}"><code>{escape(flow)}</code> {escape(title)}</a></li>')
-    links.append(f'- [{flow} — {title}]({name})' + (f' · {duration}' if duration else '') + '\n  ' + description)
+    clip_link = gallery_url + '#' + flow if gallery_url else name
+    links.append(f'- [{flow} — {title}]({clip_link})' + (f' · {duration}' if duration else '') + '\n  ' + description)
 runtime = manifest['runtime'].split('SimRuntime.')[-1].replace('iOS-', 'iOS ').replace('-', '.')
 intro = f"{len(cards)} scripted routing flows · {manifest['device']} · {runtime}"
 nav = '<nav id="flow-index" aria-label="Flow index"><h2>Flow index</h2><div class="index-grid">'

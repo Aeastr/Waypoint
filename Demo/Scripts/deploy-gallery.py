@@ -30,6 +30,12 @@ def main():
     entries = [{'path': name, 'mode': '100644', 'type': 'blob', 'content': (root / name).read_text()}
                for name in ['index.html', 'manifest.json', 'media-validation.json', 'steps.jsonl']]
     entries.append({'path': '.nojekyll', 'mode': '100644', 'type': 'blob', 'content': ''})
+    scripts = pathlib.Path(__file__).resolve().parent
+    for local, remote in [('build-gallery-site.py', 'build-gallery-site.py'),
+                          ('recordings-pages.yml', '.github/workflows/pages.yml')]:
+        entries.append({'path': remote, 'mode': '100644', 'type': 'blob',
+                        'content': (scripts / local).read_text()})
+
     branch = api(args.repo, 'git/ref/heads/gh-pages', missing_ok=True)
     parents = []
     tree_request = {'tree': entries}

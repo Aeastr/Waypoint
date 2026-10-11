@@ -251,3 +251,13 @@ The gallery is published at https://aeastr.github.io/Waypoint/ from the
 gallery section. GitHub Pages reports a successful build. The hosted page,
 index navigation, and inline C02 playback were checked in the browser.
 `deploy-gallery.py` updates the page and metadata through the GitHub CLI.
+
+
+## Inline video delivery
+
+The Pages workflow assembles the gallery with checksum-verified MP4s fetched
+from the recordings release. The deployment artifact serves those videos at
+`/Waypoint/videos/` with `Content-Type: video/mp4` and byte-range support.
+The workflow completed successfully; B01 returned HTTP 206 for a two-byte range
+request and played in the in-app browser. Safari playback verification remains
+pending because the Mac was locked during that check.

@@ -129,5 +129,7 @@ Publish the current gallery files to the `gh-pages` branch:
 python3 Demo/Scripts/deploy-gallery.py
 ```
 
-This uses the signed-in GitHub CLI account. The deployment contains the HTML
-page and its metadata; video playback uses the release asset URLs in the manifest.
+This uses the signed-in GitHub CLI account. The workflow fetches the release
+videos, verifies their SHA-256 hashes, and
+packages them with the gallery as a Pages artifact. Git history contains the
+page, metadata, workflow, and scripts.
